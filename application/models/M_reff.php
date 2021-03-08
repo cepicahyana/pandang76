@@ -1,9 +1,9 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-require_once('vendor/autoload.php');
+//require_once('vendor/autoload.php');
 
-use PhpAmqpLib\Connection\AMQPStreamConnection;
-use PhpAmqpLib\Message\AMQPMessage;
+//use PhpAmqpLib\Connection\AMQPStreamConnection;
+//use PhpAmqpLib\Message\AMQPMessage;
 
 class M_reff extends ci_Model
 {
@@ -339,7 +339,7 @@ class M_reff extends ci_Model
 	
 	
 		public function kirimEmail($femail,$fsubject,$fmessage,$path=null,$namaFile=null,$delfile=null)
-	{  	
+	{  	return false;
 		//	$var["sts"]="ok";
 			//return $var;
 		if($fsubject=="0" or $fsubject=="")
@@ -688,5 +688,3 @@ class M_reff extends ci_Model
 		return $result;
 	}
 }
-
-?>
