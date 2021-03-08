@@ -1,0 +1,47 @@
+﻿.modal-title{
+border-bottom:#C9302C solid 1px;
+}
+.modal-title{
+color:#C9302C;
+}
+.form-label{
+color:black;
+}
+
+.sadow{
+	 text-shadow:1px 1px 1px  black;
+}.sadow1{
+	 text-shadow:1px 1px 1px  white;
+}.sadow2{
+	 text-shadow:1px 1px 1px  white;
+	 color:black;
+}
+#table thead{
+	background-color:#8BC34A;color:white;
+}
+.btn-top{
+margin-top:-30px;
+}
+.white{
+	color:white;
+}
+.input{
+border:#A9A9A9 solid 1px;
+}
+.input-file{
+border:#A9A9A9 dashed 1px;
+}
+.img{
+	border-radius:10px;
+	padding:5px;
+	border:#A9A9A9 solid 1px;
+}
+.b{
+	font-weight:bold;
+}
+
+.scroll {
+   padding:15px;
+    height: 450px;
+    overflow: scroll;
+}
