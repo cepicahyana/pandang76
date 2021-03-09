@@ -17,16 +17,16 @@ if ($file && strpos($file[0], '200')) {
 
 		<ul class="navbar-nav topbar-nav ml-md-auto align-items-center">
 
-			<li class="nav-item active dropdown hidden-caret">
+			<li class="nav-item  dropdown hidden-caret">
 				<a class="nav-link dropdown-toggle " href="<?php echo base_url() ?>mode_vicon">
-					<i class="fa fa-angle-double-right"></i> <span style="color:yellow"> Mode undangan virtual</span>
+					<i class="fa fa-angle-double-right"></i> Mode undangan virtual
 				</a>
 			</li>
 
 
-			<li class="nav-item dropdown hidden-caret">
+			<li class="nav-item active dropdown hidden-caret">
 				<a class="nav-link dropdown-toggle " href="<?php echo base_url() ?>mode_fisik">
-					<i class="fa fa-angle-double-right"></i> Mode undangan fisik
+					<i class="fa fa-angle-double-right"></i><span style="color:yellow"> Mode undangan fisik</span>
 				</a>
 			</li>
 
