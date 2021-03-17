@@ -11,7 +11,7 @@ class Mode_fisik extends MY_Controller
 		parent::__construct();
 		$this->load->model('m_myevent', 'event');
 		$this->load->model('m_umum', 'umum');
-		$this->m_konfig->validasi_session(array("user"));
+		$this->m_konfig->validasi_session(array("user","admin"));
 
 		date_default_timezone_set("Asia/Jakarta");
 	}
@@ -89,11 +89,7 @@ class Mode_fisik extends MY_Controller
 	public function index()
 	{
 
-		$mode	=	$this->m_reff->tm_pengaturan(39);
-		if ($mode == 2) {
-			redirect("monitoring_souvenir");
-		}
-
+	 
 
 		$ajax = $this->input->get_post("ajax");
 		if ($ajax == "yes") {
